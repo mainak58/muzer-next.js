@@ -41,7 +41,7 @@ export async function GET(req: NextRequest) {
     } catch (error) {
         return NextResponse.json(
             {
-                message: "Please check api/streams/downstream",
+                message: "Please check api/streams/downstream catch",
             },
             {
                 status: 404,
